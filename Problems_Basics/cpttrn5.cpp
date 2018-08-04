@@ -8,11 +8,11 @@ using namespace std;
 int main()
 {
     int t(0), l(0), c(0), s(0);
-    std::vector<std::string> v_out {};
+    vector<std::string> v_out {};
 
-    std::cin >> t;
+    cin >> t;
     while(t > 0) {
-        std::cin >> l >> c >> s;
+        cin >> l >> c >> s;
         string asterisk_line = string((s+1)*c+1, char(42));
         string base = string(s+1, char(46));
         base[0] = char(42);
