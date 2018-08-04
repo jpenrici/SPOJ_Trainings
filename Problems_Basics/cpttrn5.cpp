@@ -1,5 +1,5 @@
 // https://www.spoj.com/problems/CPTTRN5/
-// CPTTRN4 - Character Patterns (Act 5)
+// CPTTRN5 - Character Patterns (Act 5)
 #include <iostream>
 #include <vector>
 
