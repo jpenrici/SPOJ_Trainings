@@ -1,5 +1,5 @@
 // https://www.spoj.com/problems/CPTTRN6/
-// CPTTRN4 - Character Patterns (Act 6)
+// CPTTRN6 - Character Patterns (Act 6)
 #include <iostream>
 #include <vector>
 
@@ -10,9 +10,9 @@ int main()
     int t(0), l(0), c(0), h(0), w(0);
     vector<std::string> v_out {};
 
-    std::cin >> t;
+    cin >> t;
     while(t > 0) {
-        std::cin >> l >> c >> h >> w;
+        cin >> l >> c >> h >> w;
         string minus_line = string((c+1)*w+c, char(45));
         string dots_line = string((c+1)*w+c, char(46));
 
