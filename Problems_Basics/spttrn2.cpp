@@ -8,7 +8,7 @@ using std::string;
 
 void spiral(int s)
 {
-    string cube = string(s * s, char(46));
+    string matrix = string(s * s, char(46));
 
     int x = 0, y = 0;
     int x0 = 2, y0 = 0;
@@ -17,7 +17,7 @@ void spiral(int s)
 
     while(true) {
         while(true) {
-            cube[y * s + x] = '*';
+            matrix[y * s + x] = '*';
 
             if (step % 4 == 0) {
                 y++;
@@ -52,13 +52,14 @@ void spiral(int s)
             }
         }
         step++;
+        // if (step == s) break;
         if (step == s) break;
     }
-    cube[y * s + x] = '*';
+    matrix[y * s + x] = '*';
 
-    for(int i = 0; i < cube.size(); ++i) {
+    for(int i = 0; i < matrix.size(); ++i) {
         if (i % s == 0 && i != 0) cout << '\n';
-        cout << cube[i];
+        cout << matrix[i];
     }
 }
 
