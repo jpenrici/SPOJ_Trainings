@@ -45,7 +45,7 @@ void spiral(int s)
 
             if (step % 4 == 3) {
                 y--;
-                if (y == y0){;
+                if (y == y0) {
                     y0 += 2;
                     break;
                 }
