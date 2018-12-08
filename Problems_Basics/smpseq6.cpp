@@ -33,6 +33,7 @@ int main()
 
 /*
 Example 1
+
 Input:
 5 2
 -1 2 -1 1 -1 
@@ -40,7 +41,9 @@ Input:
 
 Output:
 1 3 4 5 
+
 Example 2
+
 Input:
 6 4
 -1 2 2 2 2 -2 
@@ -48,7 +51,9 @@ Input:
 
 Output:
 6
+
 Example 3
+
 Input:
 6 0
 -1 2 10 12 6 -2 
